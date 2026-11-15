@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "excelsis": {
+      "command": "python",
+      "args": ["-m", "src.mcp_server"],
+      "cwd": ".",
+      "env": {
+        "MODEL":          "${MODEL}",
+        "SQL_SERVER":     "${SQL_SERVER}",
+        "SQL_DATABASES":  "${SQL_DATABASES}",
+        "SQL_PRIMARY_DB": "${SQL_PRIMARY_DB}",
+        "SQL_USERNAME":   "${SQL_USERNAME}",
+        "SQL_PASSWORD":   "${SQL_PASSWORD}",
+        "MCP_USER_ID":    "claude_code"
+      }
+    }
+  }
+}
