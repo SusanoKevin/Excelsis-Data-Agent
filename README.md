@@ -1,6 +1,6 @@
 # Excelsis 360 — Data Analyst Agent
 
-**Ask your database a question in plain English, get a grounded, cited answer streamed back token-by-token.** Built as a prototype for a school ERP, this agent turns SQL Server data into conversational insight — no BI dashboard required, no hallucinated numbers.
+**Ask your database a question in plain English, get a grounded, cited answer streamed back token-by-token.** Built as a prototype for a school ERP, this agent turns SQL Server data into conversational insight — no BI dashboard required, with answers computed from live SQL results.
 
 A full-stack AI data analyst built on a LangGraph ReAct agent (local LLMs via Ollama), a SQL Server backend, and a FastAPI + React web interface — with RAG-grounded answers, JWT-secured multi-user access, and a native Prometheus/Grafana observability stack.
 
